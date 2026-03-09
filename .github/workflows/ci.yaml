@@ -2,10 +2,10 @@ name: CI
 
 on:
   pull_request:
-    paths-ignore::
+    paths-ignore:
       - 'wiki/**'
   push:
-    paths-ignore::
+    paths-ignore:
       - 'wiki/**'
 
 permissions: {}
